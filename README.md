@@ -7,4 +7,4 @@
 
 ## Ссылка для демонстрации вёрстки проекта
 
- https://yurkaronin.github.io/linotrade.loc/
+https://verygood-agency.github.io/linotrade.loc/
