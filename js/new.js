@@ -13,7 +13,7 @@ filterParams.forEach((param) => {
     const notification = document.createElement('button');
     notification.className = 'notification button';
     notification.type = 'submit';
-    notification.textContent = 'Показать 1145ewrwer6'; // замените это на свое значение
+    notification.textContent = 'Показать 11'; // замените это на свое значение
 
     // Добавляем событие клика
     notification.addEventListener('click', function() {
