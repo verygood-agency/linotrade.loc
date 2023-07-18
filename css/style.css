@@ -4844,3 +4844,44 @@ input[type=checkbox]:checked + label::before {
   position: sticky;
   top: 170px;
 }
+
+.product-catalog__main {
+  z-index: 1;
+}
+
+.product-catalog__aside {
+  z-index: 2;
+}
+
+.notification {
+  position: absolute;
+  left: 90%;
+  top: -50%;
+  z-index: 9;
+  padding: 11px 16px 13px 28px;
+  background-color: transparent !important;
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='128' height='48' fill='none'%3e%3cpath fill='%2367CB33' d='M13 0h115v48H13L0 24 13 0Z'/%3e%3c/svg%3e");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #ffffff;
+  font-family: var(--Oswald);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  text-transform: uppercase;
+  width: min-content !important;
+  margin: 0 !important;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+  display: flex;
+}
+
+.notification:hover {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='128' height='48' fill='none'%3e%3cpath fill='%2344A611' d='M13 0h115v48H13L0 24 13 0Z'/%3e%3c/svg%3e");
+}
+
+.catalog-filter__checkbox-list li {
+  position: relative;
+}
